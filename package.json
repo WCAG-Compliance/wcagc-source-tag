@@ -15,7 +15,7 @@
   "files": ["dist", "README.md", "LICENSE"],
   "scripts": { "build": "tsc -p tsconfig.build.json", "typecheck": "tsc --noEmit", "test": "node --import tsx --test test/*.test.ts", "verify": "npm run typecheck && npm test && npm run build", "prepublishOnly": "npm run verify" },
   "dependencies": { "@babel/parser": "^7.28.0", "magic-string": "^0.30.21" },
-  "devDependencies": { "@types/node": "^24.0.0", "tsx": "^4.22.4", "typescript": "^6.0.3", "vite": "^8.0.0" },
+  "devDependencies": { "@types/node": "^26.1.2", "tsx": "^4.22.4", "typescript": "^7.0.2", "vite": "^8.0.0" },
   "peerDependencies": { "vite": ">=5 <9" },
   "engines": { "node": ">=20" }
 }
