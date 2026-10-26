@@ -1,6 +1,6 @@
 {
   "name": "@wcagc/source-tag",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Deterministic JSX source attributes for wcagc browser checks",
   "type": "module",
   "license": "MIT",
@@ -32,12 +32,12 @@
     "prepublishOnly": "npm run verify"
   },
   "dependencies": {
-    "@babel/parser": "^8.0.4",
-    "magic-string": "^1.1.0"
+    "@babel/parser": "^8.0.8",
+    "magic-string": "^1.4.4"
   },
   "devDependencies": {
-    "@types/node": "^26.1.2",
-    "tsx": "^4.22.4",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vite": "^8.0.0"
   },
